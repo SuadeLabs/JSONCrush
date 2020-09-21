@@ -11,7 +11,7 @@
 // @output_file_name JSONCrush.min.js
 // ==/ClosureCompiler==
 
-const JSONCrush=(string, maxSubstringLength=50)=>
+export const JSONCrush=(string, maxSubstringLength=50)=>
 {
     const delimiter = '\u0001'; // used to split parts of crushed string
         
@@ -156,9 +156,9 @@ const JSONCrush=(string, maxSubstringLength=50)=>
     
     // encode URI
     return encodeURIComponent(crushedString);
-}
+};
 
-const JSONUncrush=(string)=>
+export const JSONUncrush=(string)=>
 {
     // string must be a decoded URI component, searchParams.get() does this automatically
     
@@ -185,9 +185,9 @@ const JSONUncrush=(string)=>
     
     // unswap the json characters in reverse direction
     return JSONCrushSwap(uncrushedString, 0);
-}
+};
 
-const JSONCrushSwap=(string, forward=1)=>
+export const JSONCrushSwap=(string, forward=1)=>
 {
     // swap out characters for lesser used ones that wont get escaped
     const swapGroups = 
@@ -214,4 +214,4 @@ const JSONCrushSwap=(string, forward=1)=>
             string = Swap(string, swapGroups[i]);
 
     return string;
-}
+};
