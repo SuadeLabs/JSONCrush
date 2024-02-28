@@ -1,5 +1,5 @@
 {
-  "name": "jsoncrush",
+  "name": "@suadelabs/jsoncrush",
   "version": "1.1.0",
   "description": "Compress JSON in URL friendly strings",
   "main": "JSONCrush.js",
