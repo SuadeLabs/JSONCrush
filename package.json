@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BabOuDev/JSONCrush.git"
+    "url": "git+https://github.com/SuadeLabs/JSONCrush.git"
   },
   "keywords": [
     "JSON",
@@ -17,7 +17,7 @@
   "author": "KilledByAPixel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BabOuDev/JSONCrush/issues"
+    "url": "https://github.com/SuadeLabs/JSONCrush"
   },
-  "homepage": "https://github.com/BabOuDev/JSONCrush#readme"
+  "homepage": "https://github.com/SuadeLabs/JSONCrush"
 }
